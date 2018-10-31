@@ -6,12 +6,12 @@ var scoreComputer = 0;
 
 function win() {
     scoreUser++;
-    document.getElementById("score-user").innerHTML = "joueur:"+ scoreUser;
+    document.getElementById("score-user").innerHTML = "joueur: <br>"+"&nbsp&nbsp&nbsp&nbsp"+ scoreUser;
 }
 
 function loose(){
-    scoreComputer++
-    document.getElementById("score-computer").innerHTML = "ordi:"+scoreComputer;
+    scoreComputer++;
+    document.getElementById("score-computer").innerHTML = "ordi:<br>"+"&nbsp&nbsp&nbsp&nbsp"+scoreComputer;
 }
 
 document.getElementById("rock").addEventListener("click", function () {
@@ -19,6 +19,8 @@ document.getElementById("rock").addEventListener("click", function () {
     computerChoice = Math.floor(computerChoice);
     userChoice = 1;
     document.getElementById('user-choice').style.backgroundImage="url('assets/img/Rock-paper-scissors_(rock).png')";
+
+
 
     if(computerChoice == 1){
        document.getElementById('computer-choice').style.backgroundImage="url('assets/img/Rock-paper-scissors_(rock).png')";
