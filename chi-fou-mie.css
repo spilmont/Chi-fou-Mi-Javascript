@@ -4,14 +4,16 @@ button{
 }
 
 section{
-    padding-top: 75px;
+    padding-top: 52px;
     background-color: green;
 }
 
 header{
-    background-color: grey;
+    line-height: 66px;
+    background-color: black;
+    color: whitesmoke;
     height:60px;
-    border-bottom:outset grey 5px;
+    border-bottom:outset black 5px;
 }
 
 h1{
@@ -103,6 +105,7 @@ h1{
 
 footer{
     position: relative;
-    background-color: grey;
-    border-top: outset grey 5px;
+    background-color: black;
+    color: whitesmoke;
+    border-top: outset black 5px;
 }
