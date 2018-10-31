@@ -6,12 +6,12 @@ var scoreComputer = 0;
 
 function win() {
     scoreUser++;
-    document.getElementById("score-user").innerHTML = "joueur: <br>"+"&nbsp&nbsp&nbsp&nbsp"+ scoreUser;
+    document.getElementById("score-user").innerHTML = "joueur: <br>"+""+ scoreUser;
 }
 
 function loose(){
     scoreComputer++;
-    document.getElementById("score-computer").innerHTML = "ordi:<br>"+"&nbsp&nbsp&nbsp&nbsp"+scoreComputer;
+    document.getElementById("score-computer").innerHTML = "ordi:<br>"+""+scoreComputer;
 }
 
 document.getElementById("rock").addEventListener("click", function () {

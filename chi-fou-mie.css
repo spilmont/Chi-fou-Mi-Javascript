@@ -10,8 +10,8 @@ section{
 
 header{
     background-color: grey;
-    height: 75px;
-    border-bottom: inset red 5px;
+    height:60px;
+    border-bottom:outset grey 5px;
 }
 
 h1{
@@ -22,6 +22,7 @@ h1{
     ;
 
     display: inline-block ;
+    margin-left: 20px;
 
 }
 
@@ -31,7 +32,7 @@ h1{
     width: 1000px;
     height: 400px;
     position: relative;
-    left: 300px;
+    left: 290px;
 
 }
 
@@ -52,9 +53,12 @@ h1{
     display: inline-block;
     margin-right: 10%;
     background-color: whitesmoke;
+    background-image: url("assets/img/eludique_jeuxsoc.png");
 }
 
 #computer-choice{
+
+    background-image: url("assets/img/eludique_jeuxsoc.png");
     width:256px;
     height: 256px;
     border: outset black;
@@ -77,13 +81,21 @@ h1{
 }
 
 #score-user{
-    border: inset black ;
+    background-color: whitesmoke;
+    text-align: center;
+    color: darkred;
+    border: inset green ;
+    border-radius: 2%;
     width: 100px;
     height: 100px;
 
 }
 #score-computer{
-    border: inset black;
+    text-align: center;
+    background-color: whitesmoke;
+    color: darkred;
+    border: inset green;
+    border-radius: 2%;
     width: 100px;
     height: 100px;
 
@@ -92,5 +104,5 @@ h1{
 footer{
     position: relative;
     background-color: grey;
-    border-top: inset red 5px;
+    border-top: outset grey 5px;
 }
